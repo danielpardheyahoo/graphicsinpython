@@ -1,12 +1,25 @@
-" " "
-2  DOTART
-3  " " "
-4
-5  import matplotlib.pyplot as plt
-6  import numpy as np
-7  import random
-8
-‘
-‘  program statements
-‘
-52 plt.show()
+"""
+DOTART
+"""
+import matplotlib.pyplot as plt
+import numpy as np
+import random
+x1=-10
+
+              
+x2=10
+
+              
+y1=-10
+
+              
+y2=10
+
+              
+plt.axis([x1,x2,y1,y2])
+
+plt.axis('on')
+
+plt.grid(True)
+
+plt.show()
